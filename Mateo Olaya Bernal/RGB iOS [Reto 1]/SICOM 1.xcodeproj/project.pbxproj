@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7AD571B216D81CA300E32F72 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD571B116D81CA300E32F72 /* UIKit.framework */; };
+		7AD571B416D81CA300E32F72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD571B316D81CA300E32F72 /* Foundation.framework */; };
+		7AD571B616D81CA300E32F72 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD571B516D81CA300E32F72 /* CoreGraphics.framework */; };
+		7AD571BC16D81CA300E32F72 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7AD571BA16D81CA300E32F72 /* InfoPlist.strings */; };
+		7AD571BE16D81CA300E32F72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD571BD16D81CA300E32F72 /* main.m */; };
+		7AD571C216D81CA300E32F72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD571C116D81CA300E32F72 /* AppDelegate.m */; };
+		7AD571C416D81CA300E32F72 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AD571C316D81CA300E32F72 /* Default.png */; };
+		7AD571C616D81CA300E32F72 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AD571C516D81CA300E32F72 /* Default@2x.png */; };
+		7AD571C816D81CA300E32F72 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AD571C716D81CA300E32F72 /* Default-568h@2x.png */; };
+		7AD571CF16D81D3500E32F72 /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AD571CE16D81D3500E32F72 /* iPhone.storyboard */; };
+		7AD571D116D81D4A00E32F72 /* iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AD571D016D81D4A00E32F72 /* iPad.storyboard */; };
+		7AD571D416D81D6800E32F72 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD571D316D81D6800E32F72 /* MainViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20A2674916DC80CB00FA8490 /* SICOM 1-iOS5-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SICOM 1-iOS5-Info.plist"; sourceTree = "<group>"; };
+		20A2674B16DC80CB00FA8490 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		20A2674D16DC80CB00FA8490 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20A2674F16DC80CB00FA8490 /* SICOM 1-iOS5-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SICOM 1-iOS5-Prefix.pch"; sourceTree = "<group>"; };
+		20A2675016DC80CB00FA8490 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		20A2675116DC80CB00FA8490 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		20A2675316DC80CB00FA8490 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		20A2675516DC80CB00FA8490 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		20A2675716DC80CB00FA8490 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7AD571AE16D81CA300E32F72 /* SICOM 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SICOM 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AD571B116D81CA300E32F72 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7AD571B316D81CA300E32F72 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7AD571B516D81CA300E32F72 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7AD571B916D81CA300E32F72 /* SICOM 1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SICOM 1-Info.plist"; sourceTree = "<group>"; };
+		7AD571BB16D81CA300E32F72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7AD571BD16D81CA300E32F72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7AD571BF16D81CA300E32F72 /* SICOM 1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SICOM 1-Prefix.pch"; sourceTree = "<group>"; };
+		7AD571C016D81CA300E32F72 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7AD571C116D81CA300E32F72 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7AD571C316D81CA300E32F72 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7AD571C516D81CA300E32F72 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7AD571C716D81CA300E32F72 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7AD571CE16D81D3500E32F72 /* iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone.storyboard; sourceTree = "<group>"; };
+		7AD571D016D81D4A00E32F72 /* iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPad.storyboard; sourceTree = "<group>"; };
+		7AD571D216D81D6800E32F72 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		7AD571D316D81D6800E32F72 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AD571AB16D81CA300E32F72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AD571B216D81CA300E32F72 /* UIKit.framework in Frameworks */,
+				7AD571B416D81CA300E32F72 /* Foundation.framework in Frameworks */,
+				7AD571B616D81CA300E32F72 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20A2674716DC80CB00FA8490 /* SICOM 1-iOS5 */ = {
+			isa = PBXGroup;
+			children = (
+				20A2675016DC80CB00FA8490 /* AppDelegate.h */,
+				20A2675116DC80CB00FA8490 /* AppDelegate.m */,
+				20A2674816DC80CB00FA8490 /* Supporting Files */,
+			);
+			path = "SICOM 1-iOS5";
+			sourceTree = "<group>";
+		};
+		20A2674816DC80CB00FA8490 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20A2674916DC80CB00FA8490 /* SICOM 1-iOS5-Info.plist */,
+				20A2674A16DC80CB00FA8490 /* InfoPlist.strings */,
+				20A2674D16DC80CB00FA8490 /* main.m */,
+				20A2674F16DC80CB00FA8490 /* SICOM 1-iOS5-Prefix.pch */,
+				20A2675316DC80CB00FA8490 /* Default.png */,
+				20A2675516DC80CB00FA8490 /* Default@2x.png */,
+				20A2675716DC80CB00FA8490 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7AD571A516D81CA300E32F72 = {
+			isa = PBXGroup;
+			children = (
+				7AD571B716D81CA300E32F72 /* SICOM 1 */,
+				20A2674716DC80CB00FA8490 /* SICOM 1-iOS5 */,
+				7AD571B016D81CA300E32F72 /* Frameworks */,
+				7AD571AF16D81CA300E32F72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7AD571AF16D81CA300E32F72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AD571AE16D81CA300E32F72 /* SICOM 1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AD571B016D81CA300E32F72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AD571B116D81CA300E32F72 /* UIKit.framework */,
+				7AD571B316D81CA300E32F72 /* Foundation.framework */,
+				7AD571B516D81CA300E32F72 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7AD571B716D81CA300E32F72 /* SICOM 1 */ = {
+			isa = PBXGroup;
+			children = (
+				7AD571C016D81CA300E32F72 /* AppDelegate.h */,
+				7AD571C116D81CA300E32F72 /* AppDelegate.m */,
+				7AD571B816D81CA300E32F72 /* Supporting Files */,
+				7AD571CE16D81D3500E32F72 /* iPhone.storyboard */,
+				7AD571D016D81D4A00E32F72 /* iPad.storyboard */,
+				7AD571D216D81D6800E32F72 /* MainViewController.h */,
+				7AD571D316D81D6800E32F72 /* MainViewController.m */,
+			);
+			path = "SICOM 1";
+			sourceTree = "<group>";
+		};
+		7AD571B816D81CA300E32F72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AD571B916D81CA300E32F72 /* SICOM 1-Info.plist */,
+				7AD571BA16D81CA300E32F72 /* InfoPlist.strings */,
+				7AD571BD16D81CA300E32F72 /* main.m */,
+				7AD571BF16D81CA300E32F72 /* SICOM 1-Prefix.pch */,
+				7AD571C316D81CA300E32F72 /* Default.png */,
+				7AD571C516D81CA300E32F72 /* Default@2x.png */,
+				7AD571C716D81CA300E32F72 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AD571AD16D81CA300E32F72 /* SICOM 1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AD571CB16D81CA300E32F72 /* Build configuration list for PBXNativeTarget "SICOM 1" */;
+			buildPhases = (
+				7AD571AA16D81CA300E32F72 /* Sources */,
+				7AD571AB16D81CA300E32F72 /* Frameworks */,
+				7AD571AC16D81CA300E32F72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SICOM 1";
+			productName = "SICOM 1";
+			productReference = 7AD571AE16D81CA300E32F72 /* SICOM 1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AD571A616D81CA300E32F72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Mateo Olaya Bernal";
+			};
+			buildConfigurationList = 7AD571A916D81CA300E32F72 /* Build configuration list for PBXProject "SICOM 1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7AD571A516D81CA300E32F72;
+			productRefGroup = 7AD571AF16D81CA300E32F72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AD571AD16D81CA300E32F72 /* SICOM 1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AD571AC16D81CA300E32F72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AD571BC16D81CA300E32F72 /* InfoPlist.strings in Resources */,
+				7AD571C416D81CA300E32F72 /* Default.png in Resources */,
+				7AD571C616D81CA300E32F72 /* Default@2x.png in Resources */,
+				7AD571C816D81CA300E32F72 /* Default-568h@2x.png in Resources */,
+				7AD571CF16D81D3500E32F72 /* iPhone.storyboard in Resources */,
+				7AD571D116D81D4A00E32F72 /* iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AD571AA16D81CA300E32F72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AD571BE16D81CA300E32F72 /* main.m in Sources */,
+				7AD571C216D81CA300E32F72 /* AppDelegate.m in Sources */,
+				7AD571D416D81D6800E32F72 /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		20A2674A16DC80CB00FA8490 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20A2674B16DC80CB00FA8490 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7AD571BA16D81CA300E32F72 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AD571BB16D81CA300E32F72 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7AD571C916D81CA300E32F72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7AD571CA16D81CA300E32F72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AD571CC16D81CA300E32F72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = Developer.ops;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = Developer.ops;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SICOM 1/SICOM 1-Prefix.pch";
+				INFOPLIST_FILE = "SICOM 1/SICOM 1-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7AD571CD16D81CA300E32F72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = Developer.ops;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = Developer.ops;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SICOM 1/SICOM 1-Prefix.pch";
+				INFOPLIST_FILE = "SICOM 1/SICOM 1-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AD571A916D81CA300E32F72 /* Build configuration list for PBXProject "SICOM 1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AD571C916D81CA300E32F72 /* Debug */,
+				7AD571CA16D81CA300E32F72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AD571CB16D81CA300E32F72 /* Build configuration list for PBXNativeTarget "SICOM 1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AD571CC16D81CA300E32F72 /* Debug */,
+				7AD571CD16D81CA300E32F72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7AD571A616D81CA300E32F72 /* Project object */;
+}

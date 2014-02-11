@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preguntas>
+	<item value="¿Cual el la capital del Colombia?" answere="0">
+		<respuesta value="Bogota" id="0" />
+		<respuesta value="Medellin" id="1" />
+	</item>
+	<item value="¿En que lengueje de programacion trabaja iOS?" answere="1">
+		<respuesta value="Java" id="0" />
+		<respuesta value="Objective-C|C++|C" id="1" />
+	</item>
+	<item value="¿En que año fue fundada la Universidad EAFIT?" answere="1" >
+		<respuesta value="1970" id="0" />
+		<respuesta value="1960" id="1" />
+	</item>
+	<item value="¿Cunato es 23 * 7?" answere="1" >
+		<respuesta value="171" id="0" />
+		<respuesta value="161" id="1" />
+	</item>
+	<item value="¿A qué velocidad se desplaza el planeta Tierra?" answere="0" >
+		<respuesta value="28,9 km/seg" id="0" />
+		<respuesta value="30,02 km/seg" id="1" />
+	</item>
+	<item value="¿En qué deporte se usa tiza?" answere="1" >
+		<respuesta value="Tennis" id="0" />
+		<respuesta value="Billar" id="1" />
+	</item>
+	<item value="¿Qué órgano segrega la hormona insulina? " answere="0" >
+		<respuesta value="Pancreas" id="0" />
+		<respuesta value="Vaso" id="1" />
+	</item>
+	<item value="¿Cuántas pirámides hay en Egipto?" answere="0" >
+		<respuesta value="10.000" id="0" />
+		<respuesta value="1.000" id="1" />
+	</item>
+	<item value="¿Pueden nadar los gorilas?" answere="0" >
+		<respuesta value="NO" id="0" />
+		<respuesta value="SI" id="1" />
+	</item>
+	<item value="¿Cual es la capital de Florida" answere="1" >
+		<respuesta value="Miami" id="0" />
+		<respuesta value="Tallahassee" id="1" />
+	</item>
+	<item value="¿Cunatas combinaciones tiene un cubo de Rubik?" answere="1" >
+		<respuesta value="8! * 12! * 3 * 2^7" id="0" />
+		<respuesta value="(8! * 12! * 3^7 * 2^11) / 2" id="1" />
+	</item>
+	<item value="¿cuanto es 2^16?" answere="0" >
+		<respuesta value="65536" id="0" />
+		<respuesta value="65563" id="1" />
+	</item>
+	<item value="¿cuanto es 2^64?" answere="1" >
+		<respuesta value="36,893,488,147,419,103,232" id="0" />
+		<respuesta value="18,446,744,073,709,551,616" id="1" />
+	</item>
+	
+</preguntas>
