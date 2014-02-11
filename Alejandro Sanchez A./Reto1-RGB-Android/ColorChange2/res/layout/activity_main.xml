@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+   
+
+    <Button
+        android:id="@+id/bColorChange"
+        android:layout_width="500dp"
+        android:layout_height="1000dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/white"
+        android:onClick="changeC" />
+
+    <TextView
+        android:id="@+id/tvDisplayCode"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:text="@string/sayCo"
+        android:textSize="35sp"
+        tools:context=".MainActivity" />
+    
+     <Button
+        android:id="@+id/bExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginRight="25dp"
+        android:background="@android:color/black"
+        android:onClick="exitS"
+        android:text="@string/exitPro"
+        android:textColor="@android:color/white" />
+
+     <Button
+         android:id="@+id/bTryAgain"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBaseline="@+id/bExit"
+         android:layout_alignBottom="@+id/bExit"
+         android:layout_alignParentLeft="true"
+         android:layout_marginLeft="26dp"
+         android:background="@android:color/black"
+         android:onClick="tryAgain"
+         android:text="@string/tryAgain"
+         android:textColor="@android:color/white" />
+
+</RelativeLayout>
